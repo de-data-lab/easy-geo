@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "One Stop GeoLocation Solution",
+  "text": "Easy Geo is ready to use, so you don't need to change anything at a coding level, plus customized intensive tools for premium users.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Why Easy Geo?",
+      "content": "Easy Geo is an APIs based web app that has a lot of easy-to-use tools for converting addresses to geolocations.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Why premium?",
+      "content": "Premium plan gives you total controls over geo data process and management.",
       "icon": "notes.svg"
     }
   ]

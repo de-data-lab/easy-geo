@@ -1,9 +1,9 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Geolocation Anywhere in a few clicks",
+  "text": "Efficiently designed tool using geo APIs to convert addresses in batch to new file with geolocations for download in minutes.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Start"
     },
     {
       "title": "Learn more",

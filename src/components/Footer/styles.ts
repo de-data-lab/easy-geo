@@ -2,15 +2,18 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterSection = styled("footer")`
-  background: rgb(241, 242, 243);
+  background-image: radial-gradient(circle farthest-corner at 50% 50%,rgba(73,85,107,.4),transparent 70%),linear-gradient(180deg,#000,#171b24 80%);
+  color: #aec8fc;
   padding: 2.5rem 0;
+  a {
+    color: #aec8fc;
+  }
 `;
 
 export const Title = styled("h4")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
-
+  color: #aec8fc;
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
   }
@@ -21,7 +24,7 @@ export const NavLink = styled(Link)`
   font-size: 1rem;
   margin-bottom: 0.625rem;
   transition: all 0.2s ease-in-out;
-
+  color: #aec8fc;
   &:hover,
   &:active,
   &:focus {
@@ -36,22 +39,23 @@ export const Extra = styled("section")`
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 2rem;
+  color: #aec8fc;
 `;
 
 export const LogoContainer = styled("div")`
   display: flex;
   position: relative;
+  color: #aec8fc;
 `;
 
 export const Para = styled("div")`
-  color: #18216d;
   font-size: 14px;
   width: 70%;
+  color: #aec8fc;
 `;
 
 export const Large = styled(Link)<any>`
   font-size: 16px;
-  color: #000;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-transform: capitalize;
@@ -62,14 +66,14 @@ export const Large = styled(Link)<any>`
   max-width: max-content;
 
   &:hover {
-    color: rgb(255, 130, 92);
+    color: var(--buttonBg);
     text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
+    text-decoration: var(--buttonBg) solid underline;
   }
 `;
 
 export const Chat = styled("p")`
-  color: #18216d;
+  color: #aec8fc;
   max-width: fit-content;
   border-bottom: 1px solid #18216d;
   cursor: pointer;
@@ -85,6 +89,7 @@ export const Chat = styled("p")`
 export const Empty = styled("div")`
   position: relative;
   height: 53px;
+  color: #aec8fc;
 `;
 
 export const FooterContainer = styled("div")`
@@ -95,7 +100,7 @@ export const FooterContainer = styled("div")`
   text-align: center;
   align-items: center;
   transition: all 0.1s ease-in-out;
-
+  color: #aec8fc;
   a {
     &:hover,
     &:active,
@@ -115,6 +120,7 @@ export const FooterContainer = styled("div")`
   }
 
   div {
+    color: #aec8fc;
     cursor: pointer;
     margin-right: 15px;
     width: 25px;
@@ -129,8 +135,7 @@ export const FooterContainer = styled("div")`
 export const Language = styled("h4")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
-
+  color: #aec8fc;
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
   }
@@ -139,7 +144,7 @@ export const Language = styled("h4")`
 export const Label = styled("label")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
+  color: #aec8fc;
   display: block;
   margin-bottom: 2rem;
   font-family: "Motiva Sans Bold", serif;
@@ -153,7 +158,7 @@ export const Label = styled("label")`
 export const LanguageSwitch = styled("div")<any>`
   cursor: pointer;
   transition: all 0.1s ease-in-out;
-
+  color: #aec8fc;
   &:hover,
   &:active,
   &:focus {
@@ -167,4 +172,5 @@ export const LanguageSwitchContainer = styled("div")`
   display: flex;
   justify-content: space-between;
   width: 85px;
+  color: #aec8fc;
 `;

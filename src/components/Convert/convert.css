@@ -1,0 +1,362 @@
+* {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+    --buttonBg: #2762f3;
+    --buttonHoverBg: #0c48db;
+    --formBg: #17181c;
+    --inputBg: #2e3138;
+    --inputDisableBg: #2e3138;
+    --inputBorder: #5c6270;
+    --pColor: #e3e4e8;
+}
+
+button, input {
+	color: var(--pColor);
+	font: 1em/1.5 "Hind", -apple-system, sans-serif;
+}
+.upload-btn {
+	overflow: hidden;
+}
+button:hover, .upload-btn input[type=file]:hover + button {
+	background: var(--buttonHoverBg);
+}
+button, .upload-btn input[type=file], .upload-btn input[type=file]::-webkit-file-upload-button {
+	cursor: pointer;
+}
+button, input {
+	display: block;
+	width: 100%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+button {
+	background: var(--buttonBg);
+	border-radius: 0.375em;
+	color: #fff;
+	margin-bottom: 1.5em;
+	padding: 0.75em 1em;
+	transition: background 0.1s linear;
+}
+button:focus {
+	outline: 0;
+}
+form {
+	padding: 1.5em 1.5em 0 1.5em;
+	position: relative;
+}
+input {
+	background: var(--inputBg);
+	border-radius: 0.25em;
+	box-shadow: 0 0 0 1px var(--inputBorder) inset;
+	padding: 0.75em;
+}
+input:disabled {
+	background: var(--inputDisableBg);
+	cursor: not-allowed;
+	text-overflow: ellipsis;
+}
+label {
+	display: inline-block;
+	font-weight: bold;
+}
+.aside-toggle, .aside-toggle:hover, .aside-toggle:focus {
+	background-color: var(--formBg);
+}
+.aside-toggle {
+	border-radius: 0.375em 0.375em 0 0;
+	margin: 0;
+	padding: 0.25em 1em;
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: none;
+	width: 4.5em;
+	height: 1.5em;
+}
+.aside-toggle:before {
+	border-left: 0.5em solid transparent;
+	border-right: 0.5em solid transparent;
+	border-bottom: 0.5em solid;
+	color: var(--pColor);
+	content: "";
+	display: block;
+	position: absolute;
+	top: 33%;
+	left: calc(50% - 0.5em);
+	width: 0; 
+	height: 0; 
+	transition: color 0.1s linear;
+}
+.aside-toggle:hover:before, .aside-toggle:focus:before {
+	color: var(--buttonBg);
+}
+.aside-open {
+	transform: translateY(0%);
+}
+.aside-open .aside-toggle:before {
+	border-bottom: 0;
+	border-top: 0.5em solid;
+}
+.sr {
+	clip: rect(1px,1px,1px,1px);
+	overflow: hidden;
+	position: absolute;
+}
+.upload-btn, .upload-btn input[type=text], .upload-btn input[type=file] + button {
+	margin-bottom: 0.75em;
+}
+.upload-btn {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.upload-btn input[type=text] {
+	width: calc(62.5% - 0.375em);
+}
+.upload-btn input[type=file], .upload-btn input[type=file] + button {
+	width: calc(37.5% - 0.375em);
+}
+.upload-btn input[type=file] {
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	height: 3em;
+}
+.upload-btn input[type=file] + button svg {
+	display: block;
+	margin: auto;
+	width: 1.5em;
+	height: 1.5em;
+}
+.upload-btn input[type=file] + button path {
+	fill: #fff;
+}
+
+.progressBar {
+	margin-bottom: 20px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price h3 {
+	font-size: 20px;
+}
+
+.price ul {
+	height: 170px;
+	list-style: none;
+}
+
+.card-2 h3 {
+	color: #fff;
+}
+
+.card-1, .card-2, .card-3 {
+	text-align: center;
+}
+
+.card-1 {
+	width: 280px;
+	height: 460px;
+	border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+	color: black;
+	background-color: #f3f4f6;
+	box-shadow: 2px 4px 5px 2px #9ca3af;
+  }
+  
+  .card-3 {
+	width: 280px;
+	background-color: #f3f4f6;
+	height: 460px;
+	color: #000;
+	box-shadow: 2px 4px 5px 2px #9ca3af;
+	border-top-right-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+  }
+  
+  .card-1 .container,
+  .card-3 .container {
+	text-align: center;
+	margin: 3rem 2rem 1.5rem 2rem;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .card-1 .container .price,
+  .card-3 .container .price {
+	font-size: 70px;
+	font-weight: 800;
+  }
+  
+  .card-1 .container .dollar,
+  .card-3 .container .dollar {
+	margin-bottom: 1.5rem;
+	font-size: 20px;
+  }
+  
+  .card-1 .container .price::after,
+  .card-3 .container .price::after {
+	content: "/mo";
+	font-size: medium;
+  }
+  
+  .card-1 h3,
+  .card-3 h3 {
+	text-align: center;
+  }
+  
+  .card-1 .divider,
+  .card-3 .divider {
+	margin: 0 2rem;
+	height: 2px;
+	border-bottom: 1px solid #9ca3af;
+  }
+  
+  .card-1 ul,
+  .card-3 ul {
+	margin: 1rem 1rem;
+  }
+  
+  .card-1 ul li,
+  .card-3 ul li {
+	line-height: 2rem;
+	font-size: 14px;
+	font-weight: 550;
+  }
+  
+  .card-1 a,
+  .card-3 a {
+	display: inline-block;
+	background-color: var(--buttonBg);
+	margin-left: 2rem;
+	padding: 0.8rem 3.3rem;
+	text-decoration: none;
+	color: white;
+	border-radius: 0.2rem;
+	font-weight: 700;
+  }
+  
+  .card-1 ul .strike,
+  .card-3 ul .strike {
+	color: #9ca3af;
+	text-decoration: line-through;
+  }
+  
+  .card-2 {
+	color: white;
+	width: 300px;
+	height: 500px;
+	background-color: var(--buttonBg);
+	border-radius: 0.5rem;
+	box-shadow: 2px 4px 5px 2px #9ca3af;
+  }
+  
+  .card-2 .container {
+	text-align: center;
+	margin: 1.8rem 2rem 1.5rem 2rem;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .card-2 .container .price {
+	font-size: 70px;
+	font-weight: 800;
+  }
+  
+  .card-2 h3 {
+	text-align: center;
+  }
+  .card-2 .container .price::after {
+	content: "/mo";
+	font-size: medium;
+  }
+  
+  .card-2 .container .dollar {
+	margin-bottom: 1.5rem;
+	font-size: 20px;
+  }
+  
+  .card-2 .divider {
+	margin: 0 2rem;
+	width: 210px;
+	height: 2px;
+	border-bottom: 1px solid #9ca3af;
+  }
+  
+  .card-2 ul {
+	margin: 2rem 1rem;
+  }
+  
+  .card-2 ul li {
+	line-height: 2rem;
+	font-size: 14px;
+	font-weight: 550;
+  }
+  
+  .card-2 ul .strike {
+	color: #9ca3af;
+	text-decoration: line-through;
+  }
+  
+  .card-2 .link a {
+	display: inline-block;
+	background-color: white;
+	margin-left: 2rem;
+	padding: 0.8rem 3.3rem;
+	text-decoration: none;
+	color: #7c3aed;
+	font-weight: 700;
+	border-radius: 0.2rem;
+  }
+  
+  .card-2 .pop {
+	width: 6rem;
+	border-radius: 0.1rem;
+	padding: 0.25rem 1rem;
+	display: flex;
+	text-decoration: none;
+	color: #000;
+	background-color: #fe7624;
+	margin-left: 12rem;
+	margin-top: 0.5rem;
+	display: flex;
+	justify-content: center;
+	/* margin-right: 1rem;  */
+  }
+
+.card-2 button {
+	background-color: #fff;
+	color: var(--buttonBg);
+}
+  
+.row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.content {
+	width: 100px;
+}
+
+
+  
+
+

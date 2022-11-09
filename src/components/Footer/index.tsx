@@ -56,7 +56,7 @@ const Footer = ({ t }: any) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="mailto:easygeo@techimpact.org">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
@@ -70,7 +70,7 @@ const Footer = ({ t }: any) => {
               </Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
+            <Title>{t("Service")}</Title>
               <Large left="true" to="/">
                 {t("Support Center")}
               </Large>
@@ -83,9 +83,9 @@ const Footer = ({ t }: any) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>591 Collaboration Way</Para>
+              <Para>Suite 601</Para>
+              <Para>Newark DE 19173</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
@@ -145,27 +145,22 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                href="https://github.com/de-data-lab"
                 src="github.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://twitter.com/de-data-lab"
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href="https://www.linkedin.com/in/de-data-lab/"
                 src="linkedin.svg"
               />
               <SocialLink
-                href="https://medium.com/@lashakakabadze/"
+                href="https://medium.com/@de-data-lab/"
                 src="medium.svg"
               />
-              <a href="https://www.buymeacoffee.com/adrinlol">
-                <img
-                  src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=adrinlol&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"
-                  alt="Buy me a pizza"
-                />
-              </a>
+              
             </FooterContainer>
           </Row>
         </Container>

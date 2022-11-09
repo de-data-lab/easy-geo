@@ -41,17 +41,20 @@ const Header = ({ t }: any) => {
           <Span>{t("About")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
+          <Span>{t("Team")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
           <Span>{t("Product")}</Span>
         </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={() => scrollTo("contact")}>
+          <Span>{t("Price")}</Span>
+        </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+          onClick={() => scrollTo("middle")}
         >
           <Span>
-            <Button>{t("Contact")}</Button>
+            <Button>{t("Login")}</Button>
           </Span>
         </CustomNavLinkSmall>
       </>
@@ -72,7 +75,7 @@ const Header = ({ t }: any) => {
             <Outline />
           </Burger>
         </Row>
-        <Drawer closable={false} visible={visible} onClose={onClose}>
+        <Drawer closable={false} open={visible} onClose={onClose}>
           <Col style={{ marginBottom: "2.5rem" }}>
             <Label onClick={onClose}>
               <Col span={12}>
