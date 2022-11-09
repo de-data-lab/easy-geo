@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/easy-geo/static/css/main.4ee33a96.css",
+    "main.js": "/easy-geo/static/js/main.e18ab3ed.js",
+    "static/js/612.c53c564e.chunk.js": "/easy-geo/static/js/612.c53c564e.chunk.js",
+    "static/js/674.1a9883f0.chunk.js": "/easy-geo/static/js/674.1a9883f0.chunk.js",
+    "static/css/216.260eb4d6.chunk.css": "/easy-geo/static/css/216.260eb4d6.chunk.css",
+    "static/js/216.38fc4c49.chunk.js": "/easy-geo/static/js/216.38fc4c49.chunk.js",
+    "static/js/333.b6bafcca.chunk.js": "/easy-geo/static/js/333.b6bafcca.chunk.js",
+    "static/js/270.1bd147a4.chunk.js": "/easy-geo/static/js/270.1bd147a4.chunk.js",
+    "static/js/931.c659e5d7.chunk.js": "/easy-geo/static/js/931.c659e5d7.chunk.js",
+    "static/js/382.c8f81d98.chunk.js": "/easy-geo/static/js/382.c8f81d98.chunk.js",
+    "static/js/794.9bced6f9.chunk.js": "/easy-geo/static/js/794.9bced6f9.chunk.js",
+    "index.html": "/easy-geo/index.html",
+    "main.4ee33a96.css.map": "/easy-geo/static/css/main.4ee33a96.css.map",
+    "main.e18ab3ed.js.map": "/easy-geo/static/js/main.e18ab3ed.js.map",
+    "612.c53c564e.chunk.js.map": "/easy-geo/static/js/612.c53c564e.chunk.js.map",
+    "674.1a9883f0.chunk.js.map": "/easy-geo/static/js/674.1a9883f0.chunk.js.map",
+    "216.260eb4d6.chunk.css.map": "/easy-geo/static/css/216.260eb4d6.chunk.css.map",
+    "216.38fc4c49.chunk.js.map": "/easy-geo/static/js/216.38fc4c49.chunk.js.map",
+    "333.b6bafcca.chunk.js.map": "/easy-geo/static/js/333.b6bafcca.chunk.js.map",
+    "270.1bd147a4.chunk.js.map": "/easy-geo/static/js/270.1bd147a4.chunk.js.map",
+    "931.c659e5d7.chunk.js.map": "/easy-geo/static/js/931.c659e5d7.chunk.js.map",
+    "382.c8f81d98.chunk.js.map": "/easy-geo/static/js/382.c8f81d98.chunk.js.map",
+    "794.9bced6f9.chunk.js.map": "/easy-geo/static/js/794.9bced6f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ee33a96.css",
+    "static/js/main.e18ab3ed.js"
+  ]
+}
