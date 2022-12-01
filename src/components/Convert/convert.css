@@ -95,7 +95,7 @@ label {
 	transition: color 0.1s linear;
 }
 .aside-toggle:hover:before, .aside-toggle:focus:before {
-	color: var(--buttonBg);
+	color: #5F8DD3;
 }
 .aside-open {
 	transform: translateY(0%);
@@ -242,7 +242,7 @@ label {
   .card-1 a,
   .card-3 a {
 	display: inline-block;
-	background-color: var(--buttonBg);
+	background-color: #5F8DD3;
 	margin-left: 2rem;
 	padding: 0.8rem 3.3rem;
 	text-decoration: none;
@@ -261,7 +261,7 @@ label {
 	color: white;
 	width: 300px;
 	height: 500px;
-	background-color: var(--buttonBg);
+	background-color: #5F8DD3;
 	border-radius: 0.5rem;
 	box-shadow: 2px 4px 5px 2px #9ca3af;
   }
@@ -333,7 +333,7 @@ label {
 	display: flex;
 	text-decoration: none;
 	color: #000;
-	background-color: #fe7624;
+	background-color: #F5C13F;
 	margin-left: 12rem;
 	margin-top: 0.5rem;
 	display: flex;
@@ -343,7 +343,7 @@ label {
 
 .card-2 button {
 	background-color: #fff;
-	color: var(--buttonBg);
+	color: #5F8DD3;
 }
   
 .row {
