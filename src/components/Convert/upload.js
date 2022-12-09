@@ -1,6 +1,8 @@
 import Convert from "./convert";
 import { useState } from "react";
 import "./convert.css";
+import { SvgIcon } from "../../common/SvgIcon";
+
 
 
 const Upload = () => {
@@ -25,6 +27,7 @@ const Upload = () => {
 
   return (
     <aside className="aside-open">
+        <SvgIcon src="carbon.svg" width="100%" height="100%" />
         <form action="">
             <div className="upload-btn">
                 <input id="img_upload" name="img_upload" type="file" accept=".csv" onChange={handleOnChange} />
@@ -54,30 +57,3 @@ const Upload = () => {
 }
 
 export default Upload;
-
-/*
-
-<div style={{ textAlign: "center" }}>
-      <form>
-        <input
-          type={"file"}
-          id={"csvFileInput"}
-          accept={".csv"}
-          onChange={handleOnChange}
-        />
-
-        <button
-          onClick={(e) => {
-            handleOnSubmit(e);
-          }}
-        >
-          UPLOAD CSV
-        </button>
-      </form>
-
-      <br />
-	  {text ? <Convert text={text} /> : null}
-    </div>
-
-
-*/
