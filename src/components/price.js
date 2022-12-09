@@ -1,60 +1,37 @@
+
 const Price = () => {
     return (
-        <div className="price">
-            <div className="card-1">
-                <div className="container">
-                    <div className="dollar">$</div>
-                    <div className="price">0</div>
-                </div>
-                <h3 className="type">BASIC</h3>
-                <div className="divider"></div>
-                <ul>
-                    <li>Up to 10 addresses each file</li>
-                    <li>No login/signup required</li>
-        
+        <div class="container">
+            <div class="panel pricing-table">
+            
+            <div class="pricing-plan">
+                <img src={`${process.env.PUBLIC_URL}/img/svg/free.svg`} alt="" className="pricing-img" />
+                <h2 class="pricing-header">BASIC</h2>
+                <ul class="pricing-features">
+                <li class="pricing-features-item">Up to 10 addresses each file</li>
+                <li class="pricing-features-item">No login/signup required</li>
                 </ul>
-                <div className="link">
-                    <button>START TODAY</button>
-                </div>
+                <span class="pricing-price">Free</span>
+                <a href="#/" class="pricing-button">Sign up</a>
             </div>
-            <div className="card-2">
-                <div className="pop" >Popular</div>
-                <div className="container">
-                    <div className="dollar">$</div>
-                    <div className="price">10</div>
-                </div>
-                <h3 className="type">PROFESSIONAL</h3>
-                <div className="divider"></div>
-                <ul>
-                    <li>Everything in Basic</li>
-                    <li>Unlimited addresses in one file</li>
-                    <li>File storages up to a year</li>
-                    <li>File storages up to 100MB</li>
-                    
+            
+            <div class="pricing-plan">
+                <img src={`${process.env.PUBLIC_URL}/img/svg/premium.svg`} alt="" class="pricing-img" />
+                <h2 class="pricing-header">PREMIUM</h2>
+                <ul class="pricing-features">
+                <li class="pricing-features-item">Unlimited file storage</li>
+                <li class="pricing-features-item">Unlimited addresses in one file</li>
                 </ul>
-                <div className="link">
-                    <button>START TODAY</button>
-                </div>
-            </div>
-            <div className="card-3">
-                <div className="container">
-                    <div className="dollar">$</div>
-                    <div className="price">50</div>
-                </div>
-                <h3 className="type">ENTERPRISE</h3>
-                <div className="divider"></div>
-                <ul>
-                    <li>Everything in Basic and Pro</li>
-                    <li>Unlimited file storage</li>
-                    <li>Customized solution for files conversion</li>
-                    <li>Supported by data experts</li>
-                </ul>
-                <div className="link">
-                    <button>START TODAY</button>
-                </div>
+                <span class="pricing-price">$150</span>
+                <a href="#/" class="pricing-button is-featured">Free trial</a>
+            </div>          
             </div>
         </div>
+
+
+
     )
 }
 
 export default Price;
+
