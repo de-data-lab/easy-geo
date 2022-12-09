@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/easy-geo/static/css/main.4ee33a96.css",
-    "main.js": "/easy-geo/static/js/main.83a49478.js",
+    "main.js": "/easy-geo/static/js/main.2ce7d0aa.js",
     "static/js/347.4f21a8f3.chunk.js": "/easy-geo/static/js/347.4f21a8f3.chunk.js",
     "static/js/674.96d520db.chunk.js": "/easy-geo/static/js/674.96d520db.chunk.js",
     "static/css/216.393b72a3.chunk.css": "/easy-geo/static/css/216.393b72a3.chunk.css",
@@ -13,7 +13,7 @@
     "static/js/794.9bced6f9.chunk.js": "/easy-geo/static/js/794.9bced6f9.chunk.js",
     "index.html": "/easy-geo/index.html",
     "main.4ee33a96.css.map": "/easy-geo/static/css/main.4ee33a96.css.map",
-    "main.83a49478.js.map": "/easy-geo/static/js/main.83a49478.js.map",
+    "main.2ce7d0aa.js.map": "/easy-geo/static/js/main.2ce7d0aa.js.map",
     "347.4f21a8f3.chunk.js.map": "/easy-geo/static/js/347.4f21a8f3.chunk.js.map",
     "674.96d520db.chunk.js.map": "/easy-geo/static/js/674.96d520db.chunk.js.map",
     "216.393b72a3.chunk.css.map": "/easy-geo/static/css/216.393b72a3.chunk.css.map",
@@ -26,6 +26,6 @@
   },
   "entrypoints": [
     "static/css/main.4ee33a96.css",
-    "static/js/main.83a49478.js"
+    "static/js/main.2ce7d0aa.js"
   ]
 }
