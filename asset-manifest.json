@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/easy-geo/static/css/main.4ee33a96.css",
-    "main.js": "/easy-geo/static/js/main.d587a467.js",
+    "main.js": "/easy-geo/static/js/main.0889e8f7.js",
     "static/js/347.4f21a8f3.chunk.js": "/easy-geo/static/js/347.4f21a8f3.chunk.js",
-    "static/js/674.1a9883f0.chunk.js": "/easy-geo/static/js/674.1a9883f0.chunk.js",
-    "static/css/216.d8f15ba1.chunk.css": "/easy-geo/static/css/216.d8f15ba1.chunk.css",
+    "static/js/674.96d520db.chunk.js": "/easy-geo/static/js/674.96d520db.chunk.js",
+    "static/css/216.393b72a3.chunk.css": "/easy-geo/static/css/216.393b72a3.chunk.css",
     "static/js/216.38fc4c49.chunk.js": "/easy-geo/static/js/216.38fc4c49.chunk.js",
     "static/js/333.b6bafcca.chunk.js": "/easy-geo/static/js/333.b6bafcca.chunk.js",
     "static/js/270.1bd147a4.chunk.js": "/easy-geo/static/js/270.1bd147a4.chunk.js",
@@ -13,10 +13,10 @@
     "static/js/794.9bced6f9.chunk.js": "/easy-geo/static/js/794.9bced6f9.chunk.js",
     "index.html": "/easy-geo/index.html",
     "main.4ee33a96.css.map": "/easy-geo/static/css/main.4ee33a96.css.map",
-    "main.d587a467.js.map": "/easy-geo/static/js/main.d587a467.js.map",
+    "main.0889e8f7.js.map": "/easy-geo/static/js/main.0889e8f7.js.map",
     "347.4f21a8f3.chunk.js.map": "/easy-geo/static/js/347.4f21a8f3.chunk.js.map",
-    "674.1a9883f0.chunk.js.map": "/easy-geo/static/js/674.1a9883f0.chunk.js.map",
-    "216.d8f15ba1.chunk.css.map": "/easy-geo/static/css/216.d8f15ba1.chunk.css.map",
+    "674.96d520db.chunk.js.map": "/easy-geo/static/js/674.96d520db.chunk.js.map",
+    "216.393b72a3.chunk.css.map": "/easy-geo/static/css/216.393b72a3.chunk.css.map",
     "216.38fc4c49.chunk.js.map": "/easy-geo/static/js/216.38fc4c49.chunk.js.map",
     "333.b6bafcca.chunk.js.map": "/easy-geo/static/js/333.b6bafcca.chunk.js.map",
     "270.1bd147a4.chunk.js.map": "/easy-geo/static/js/270.1bd147a4.chunk.js.map",
@@ -26,6 +26,6 @@
   },
   "entrypoints": [
     "static/css/main.4ee33a96.css",
-    "static/js/main.d587a467.js"
+    "static/js/main.0889e8f7.js"
   ]
 }
